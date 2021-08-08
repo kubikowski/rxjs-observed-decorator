@@ -21,4 +21,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Jasmine Tests
-        run: jasmine-ts --config=jasmin.json
+        run: npm test
